@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body>
+
+  <div class=" flex flex-col justify-center h-screen lg:flex-row">
+    <section class=" flex justify-center items-center">
+      <!-- card -->
+      <div class="flex flex-col items-center justify-center text-[hsl(0,0%,6%)] bg-[hsl(30,38%,92%)]  px-5 py-10 lg:flex-row">
+        <!-- image section -->
+        <div class="flex">
+          <img src="/images/image-product-mobile.jpg" alt="img" class="lg:hidden rounded-t-lg lg:rounded-t-none lg:rounded-e-lg lg:w-[500px]">
+          <img src="/images/image-product-desktop.jpg" alt="img" class="hidden lg:block rounded-t-lg lg:rounded-t-none lg:rounded-e-lg lg:w-[300px] lg:h-[500px]">
+        </div>
+        <div class="justify-center bg-white p-5 lg:h-[500px] lg:w-[300px]">
+          <p class="lg:hidden font-inter font-bold text-3xl">PERFUME</p>
+          <p class="hidden lg:block font-inter font-bold text-3xl">PERFUME</p>
+
+          <h1 class=" lg:hidden, text-3xl my-4 font-bold">Gabrielle Essence <br>Eau De Parfum</h1>
+          <h1 class="hidden lg:block text-3xl my-4 font-bold">Gabrielle Essence <br>Eau De Parfum</h1>
+
+          <p class="lg:hidden my-4"> A floral, solar and voluptuous<br>interpretation composed by oliver polge, Perfume creator for house of
+            CHANEL
+          </p>
+          <p class="hidden lg:block my-4"> A floral, solar and voluptuous<br>interpretation composed by oliver polge, Perfume creator for house of
+            CHANEL
+          </p>
+          
+          <div>
+              <span class="lg:hidden font-bold text-3xl space-x-3">$149.99</span>
+              <span class="hidden lg:block font-bold text-3xl space-x-3">$149.99</span>
+
+              <span class="lg:hidden"><del>$169.99</del></span>
+              <span class="hidden lg:block"><del>$169.99</del></span>
+          </div>
+  
+          <button class="bg-green-400 rounded-full font-bold pr-3 w-full "><a href="#">Add to cart</a></button>
+        
+        </div>
+      
+      </div>
+  
+    </section>
+  </div>
+</body>
+
+</html>
